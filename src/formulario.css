@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #d763e7, #200122); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background: linear-gradient(to left, #473af6, #200122); 
+    background: linear-gradient(to bottom, #3883e6, #200122); 
+    background: linear-gradient(to top, #d763e7, #200122); 
+    width:800px;
+    border-radius:5px;
+    overflow:hidden;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    margin-top: 100px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px; 
+    -o-border-radius:10px;
+}
+.login-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    width: 100%;
+}
+.container-titulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    height: auto;
+}
+.container-titulos h1{
+    color:white;
+}
+.container-titulos h2{
+    color:white;
+    padding-bottom: 10px;
+}
+.container-inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.container-inputs input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid 3px #ccc;
+    border-radius:20px;
+    padding-top:10px;
+    margin-top:20px;
+}
+.container-inputs input:focus{
+    outline: solid 4px rgb(0, 153, 255);
+}
+.container-options{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-options span{
+    color: #fff;
+    padding-top:25px;
+}
+.btn{
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+    border-radius:10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #000000;
+    color: wheat;
+}
